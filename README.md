@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# To-Do List Application
 
-## Getting Started
+## Descrição
 
-First, run the development server:
+Este é um projeto de **To-Do List** criado com **Next.js 14** e **Tailwind CSS**. O objetivo deste projeto é fornecer uma aplicação simples e interativa onde os usuários possam adicionar, marcar como concluídas e deletar tarefas. A aplicação é projetada para ser fácil de entender, escalar e modificar.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Tecnologias Utilizadas
+
+- **Next.js 14**: Um framework de React para desenvolvimento web moderno.
+- **Tailwind CSS**: Um framework de CSS utilitário que facilita a criação de interfaces de usuário com estilos consistentes.
+
+## Funcionalidades
+
+- **Adicionar Tarefa**: Adicione novas tarefas à lista.
+- **Marcar Tarefa como Concluída**: Clique em uma tarefa para marcar/desmarcar como concluída.
+- **Excluir Tarefa**: Remova tarefas da lista.
+- **Interface Responsiva**: A aplicação é responsiva, oferecendo uma boa experiência em dispositivos móveis e desktops.
+
+## Pré-requisitos
+
+Antes de começar, você precisa ter o seguinte instalado na sua máquina:
+
+- **Node.js** (recomendado: versão 20.x ou superior)
+- **pnpm** (recomendado: versão 9.10.x ou superior)
+
+## Instruções de Instalação
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/segabrielcarvalho/todo-list.git
+   cd todo-list
+   ```
+
+````
+
+2. **Instale as dependências:**
+
+   ```bash
+   pnpm install
+   ```
+
+3. **Execute o Servidor de Desenvolvimento:**
+
+   Inicie o servidor de desenvolvimento com o comando:
+
+   ```bash
+   pnpm dev
+   ```
+
+   Acesse `http://localhost:3000` no seu navegador para ver o aplicativo em ação.
+
+## Estrutura do Projeto
+
+```plaintext
+todo-list/
+├── components/
+│   └── TodoList.jsx     # Componente da lista de tarefas
+├── pages/
+│   └── index.jsx        # Página principal que utiliza o componente ToDoList
+├── public/
+│   └── ...              # Arquivos públicos, como imagens ou ícones
+├── styles/
+│   └── globals.css      # Estilos globais com Tailwind CSS
+├── .gitignore
+├── package.json
+├── README.md
+└── tailwind.config.js   # Configuração do Tailwind CSS
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Uso
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Adicionar Tarefa
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Digite o texto da tarefa no campo de entrada e clique no botão **"Add"** para adicionar a tarefa à lista.
 
-## Learn More
+### Marcar Tarefa como Concluída
 
-To learn more about Next.js, take a look at the following resources:
+- Clique no texto da tarefa para marcá-la como concluída. A tarefa será tachada e mudará de cor para indicar a conclusão.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Excluir Tarefa
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Clique no botão **"Delete"** ao lado da tarefa que deseja remover da lista.
 
-## Deploy on Vercel
+## Personalização
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este projeto pode ser facilmente personalizado e estendido para atender às suas necessidades. Abaixo estão algumas sugestões:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Adicionar Filtragem de Tarefas**: Filtre as tarefas por "Todas", "Concluídas" ou "Pendentes".
+- **Integração com Backend**: Conecte a aplicação a um backend para persistir as tarefas.
+- **Notificações e Alertas**: Adicione notificações para ações como "Tarefa adicionada", "Tarefa removida", etc.
+
+## Contribuição
+
+Se você deseja contribuir com este projeto, siga os passos abaixo:
+
+1. Faça um fork do repositório.
+2. Crie um branch para sua feature (`git checkout -b feature/nova-feature`).
+3. Faça o commit de suas alterações (`git commit -m 'Adicionei nova feature'`).
+4. Envie para o branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto é licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
+
+## Contato
+
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
+
+- **Seu Nome** - [gabrielcarvalho.profissional@hotmail.com](mailto:gabrielcarvalho.profissional@hotmail.com)
+- **GitHub**: [https://github.com/segabrielcarvalho](https://github.com/segabrielcarvalho)
+
+```
+````
