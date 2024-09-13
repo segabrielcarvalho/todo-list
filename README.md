@@ -104,12 +104,4 @@ Se você deseja contribuir com este projeto, siga os passos abaixo:
 
 Este projeto é licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
 
-## Contato
-
-Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
-
-- **Seu Nome** - [gabrielcarvalho.profissional@hotmail.com](mailto:gabrielcarvalho.profissional@hotmail.com)
-- **GitHub**: [https://github.com/segabrielcarvalho](https://github.com/segabrielcarvalho)
-
-```
 ````
